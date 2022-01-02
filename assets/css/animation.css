@@ -1,0 +1,19 @@
+.locale{
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchange{
+    0%{
+        color: green;
+    }
+    25%{
+        color: pink;
+    }
+    50%{
+        color: yellow;
+    }
+    100%{
+        color: skyblue;
+    }
+    }
